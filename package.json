@@ -1,0 +1,28 @@
+{
+  "name": "redis-lock-q",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pwmckenna/redis-lock-q.git"
+  },
+  "author": "Patrick Williams <pwmckenna@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwmckenna/redis-lock-q/issues"
+  },
+  "homepage": "https://github.com/pwmckenna/redis-lock-q",
+  "dependencies": {
+    "q": "^1.0.1",
+    "redis-lock": "0.0.8"
+  },
+  "devDependencies": {
+    "better-assert": "^1.0.1",
+    "redis": "^0.12.1",
+    "sinon": "^1.10.3"
+  }
+}
