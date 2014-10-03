@@ -28,6 +28,6 @@ lock("myLock", function() {
 }).fin(function() {
   // The lock has been released
 });
-``
+```
 
 `lock` itself now returns a promise, which is just a proxy for the resolved/rejected promise that your function returned.
